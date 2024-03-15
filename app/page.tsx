@@ -133,6 +133,60 @@ export default function Home() {
           </ul>
         </div>
 
+        <div className="w-full p-4 text-center bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+        A customer writes in to the Helpdesk asking "How do I do a redirect from the /blog path to https://example.com?" Please write a reply to the customer. Feel free to add any information about your decision making process after the reply.
+
+        </h5>
+          <ul>
+            <li>
+            Hello, [customer's name here]. Please have a look at https://vercel.com/docs/edge-network/redirects 
+            under the "Static redirects" section and please let me know if you have any questions. Thank you!
+            </li>
+          </ul>
+        </div>
+
+        <div className="w-full p-4 text-center bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+        A customer is creating a site and would like their project not to be indexed by search engines. Please write a reply to the customer. Feel free to add any information about your decision making process after the reply.
+        </h5>
+          <ul>
+            <li>
+            Hello, [customer's name here]. 
+              By default, preview environments have the X-Robots-Tag header set to prevent search engines from indexing them. 
+              However production sites will not have this by defaulr. Here are the details you will need to add the X-Robots header: 
+              https://vercel.com/guides/are-vercel-preview-deployment-indexed-by-search-engines#x-robots-tag-header
+              
+              Please let us know if you have any questions. Thank you!
+            </li>
+          </ul>
+        </div>
+
+        <div className="w-full p-4 text-center bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+        What do you think is one of the most common problems which customers ask Vercel for help with? How would you help customers to overcome common problems, short-term and long-term?
+        </h5>
+          <ul>
+            <li>
+              New technology. It seems like there is a new fad once a month! 
+              As a result documentation should be kept up to date and there should be a constant state of learning. 
+            </li>
+          </ul>
+        </div>
+
+        <div className="w-full p-4 text-center bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+        How could we improve or alter this familiarisation exercise?
+        </h5>
+          <ul>
+            <li>
+              I loved it! I wish I had a tad more time to adjust the formatting and appearance with tailwind, but I'm right up to the 3hr mark!
+            </li>
+          </ul>
+        </div>
+
+
+
         
 
 
