@@ -12,19 +12,23 @@ export default function Home() {
             </h5>
             <ul className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
               <li>
-                Manage a support team
+                Manage a support team - I'm particularly good at this. :)
               </li>
               <li>
-              Run ticket review sessions to make sure tone is consistent
+              Run ticket review sessions to make sure tone is consistent - Especially excellent or especially "not" excellent examples can be logged for review time. 
               </li>
               <li>
-              Dig through logs to troubleshoot a customer&apos;'s broken project
+              Dig through logs to troubleshoot a customer&apos;s broken project - I enjoy fixing things for people and bringing a smile to their face. 
+              That's how I graviitated towards support in the beginning.
               </li>
               <li>
-              Work with the product team to develop a new feature based on feedback from customers
+              Work with the product team to develop a new feature based on feedback from customers - Support interacts with customers daily with plenty of feedback 
+              that can be provided to the Product and/or Engineering team. The feedback is that much more valuable when the customers are developers themselves. 
               </li>
               <li>
-              Write and maintain support articles and docs pages
+              Write and maintain support articles and docs pages - External KB to customers as well as internal documentation that can be easily followed. 
+              Reduces tickets, reduces support time, reduces overall cost as a result. Especially fun when it's something new and extra techy!
+              Docs should never be done! They are "forever-changing" and a "source of truth" for the entire team. 
               </li>
             </ul>
           </a>
@@ -33,36 +37,43 @@ export default function Home() {
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               5 Least Favorite Support tasks
             </h5>
-            <p className="font-normal text-gray-700 dark:text-gray-400">
-              Help resolve billing issues for customers
-              Respond to queries on Twitter, Reddit, Hacker News and other 3rd party sites
-              Create video tutorials to help teach users a specific feature or use case
-              Work with people to figure out if Vercel is suitable for their use case
-              Work with 3rd party partners to track down a tricky situation for a joint customer
-            </p>
+            <ul className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+              <li>
+                Help resolve billing issues for customers - Working in a startup and wearing many hats, I have done this. Canceling folks for non-payment is not enjoyable.
+              </li>
+              <li>
+                Respond to queries on Twitter, Reddit, Hacker News and other 3rd party sites - I wouldn't mind this so much at all actually, however it is in the least 5 
+                simply because if I had to choose, other items in the list would be preferable. 
+              </li>
+              <li>
+                Create video tutorials to help teach users a specific feature or use case - Same reason as above. 
+              </li>
+              <li>
+                Work with people to figure out if Vercel is suitable for their use case - I might enoy this after I am fully versed in all of Vercel's offerings.
+                I have previosuly joined sales calls to help confirm or explain technical solutions for potential customers. 
+              </li>
+              <li>
+               Work with 3rd party partners to track down a tricky situation for a joint customer - I might enjoy this as well. It was really difficult to choose 5 least favorite
+               tasks in support since I don't overly dislike any of them. (Well, maybe billing, however that completely depends on the context.)
+              </li>
+            </ul>
           </a>
-          
 
-     
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
       </div>
+
+      
+
+      <div class="w-full p-4 text-center bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+        What do you want to learn or do more of at work?
+        </h5>
+          <ul>
+            <li>
+              All the new tech. Every single piece that I can get my hands on. If my team is supporting it, I want to be in the know.
+            </li>
+          </ul>
+        </div>
+
 
       <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
         <Image
