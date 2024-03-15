@@ -4,27 +4,36 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-       <strong>5 most favourite and 5 least favourite support tasks.</strong>&nbsp;
 
-          Favorite<br/>
-          <code className="font-mono font-bold">
-          Manage a support team
-          Run ticket review sessions to make sure tone is consistent
-          Dig through logs to troubleshoot a customer&apos;'s broken project
-          Work with the product team to develop a new feature based on feedback from customers
-          Write and maintain support articles and docs pages
-          </code>
-          <br/>
-          Least Favorite<br/>
-          <code className="font-mono font-bold">
-          Help resolve billing issues for customers
-          Respond to queries on Twitter, Reddit, Hacker News and other 3rd party sites
-          Create video tutorials to help teach users a specific feature or use case
-          Work with people to figure out if Vercel is suitable for their use case
-          Work with 3rd party partners to track down a tricky situation for a joint customer
-          </code>
-        </p>
+      
+          <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              5 Favorite Support tasks
+            </h5>
+            <p class="font-normal text-gray-700 dark:text-gray-400">
+              Manage a support team
+              Run ticket review sessions to make sure tone is consistent
+              Dig through logs to troubleshoot a customer&apos;'s broken project
+              Work with the product team to develop a new feature based on feedback from customers
+              Write and maintain support articles and docs pages
+            </p>
+          </a>
+
+          <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              5 Least Favorite Support tasks
+            </h5>
+            <p class="font-normal text-gray-700 dark:text-gray-400">
+              Help resolve billing issues for customers
+              Respond to queries on Twitter, Reddit, Hacker News and other 3rd party sites
+              Create video tutorials to help teach users a specific feature or use case
+              Work with people to figure out if Vercel is suitable for their use case
+              Work with 3rd party partners to track down a tricky situation for a joint customer
+            </p>
+          </a>
+          
+
+     
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
             className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
