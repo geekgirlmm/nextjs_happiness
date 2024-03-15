@@ -10,13 +10,23 @@ export default function Home() {
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               5 Favorite Support tasks
             </h5>
-            <p className="font-normal text-gray-700 dark:text-gray-400">
-              Manage a support team
+            <ul className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+              <li>
+                Manage a support team
+              </li>
+              <li>
               Run ticket review sessions to make sure tone is consistent
+              </li>
+              <li>
               Dig through logs to troubleshoot a customer&apos;'s broken project
+              </li>
+              <li>
               Work with the product team to develop a new feature based on feedback from customers
+              </li>
+              <li>
               Write and maintain support articles and docs pages
-            </p>
+              </li>
+            </ul>
           </a>
 
           <a href="#" className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
