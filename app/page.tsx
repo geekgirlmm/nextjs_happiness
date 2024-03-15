@@ -3,10 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-
-      
-          <a href="#" className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+      <div className="w-full p-4 text-center bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               5 Favorite Support tasks
             </h5>
@@ -31,10 +28,11 @@ export default function Home() {
               Docs should never be done! They are "forever-changing" and a "source of truth" for the entire team. 
               </li>
             </ul>
-          </a>
+      </div>
 
-          <a href="#" className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      <div className="w-full p-4 text-center bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+    
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               5 Least Favorite Support tasks
             </h5>
             <ul className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
@@ -57,7 +55,6 @@ export default function Home() {
                tasks in support since I don't overly dislike any of them. (Well, maybe billing, however that completely depends on the context.)
               </li>
             </ul>
-          </a>
 
       </div>
 
