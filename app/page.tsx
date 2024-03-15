@@ -154,7 +154,7 @@ export default function Home() {
             <li>
             Hello, [customer's name here]. 
               By default, preview environments have the X-Robots-Tag header set to prevent search engines from indexing them. 
-              However production sites will not have this by defaulr. Here are the details you will need to add the X-Robots header: 
+              However production sites will not have this by default. Here are the details you will need to add the X-Robots header: 
               https://vercel.com/guides/are-vercel-preview-deployment-indexed-by-search-engines#x-robots-tag-header
               
               Please let us know if you have any questions. Thank you!
