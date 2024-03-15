@@ -7,7 +7,7 @@ export default function Home() {
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               5 Favorite Support tasks
             </h5>
-            <ul className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+            <ul className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               <li>
                 Manage a support team - I'm particularly good at this. :)
               </li>
@@ -35,7 +35,7 @@ export default function Home() {
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               5 Least Favorite Support tasks
             </h5>
-            <ul className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+            <ul className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               <li>
                 Help resolve billing issues for customers - Working in a startup and wearing many hats, I have done this. Canceling folks for non-payment is not enjoyable.
               </li>
@@ -58,7 +58,6 @@ export default function Home() {
 
       </div>
 
-      
 
       <div className="w-full p-4 text-center bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -66,7 +65,70 @@ export default function Home() {
         </h5>
           <ul>
             <li>
-              All the new tech. Every single piece that I can get my hands on. If my team is supporting it, I want to be in the know.
+              All the new tech! Every single piece that I can get my hands on. If my team is supporting it, I want to be in the know.
+            </li>
+          </ul>
+        </div>
+
+        <div className="w-full p-4 text-center bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          Describe how you solved a challenge or technical issue that you faced in a previous role (preferably in a previous support role). How did you determine that your solution was successful?
+        </h5>
+          <ul>
+            <li>
+            We received alerts from our support engineers about a sudden surge in carding attacks targeting a significant number of stores. Carding attacks involve cybercriminals using stolen credit card details to check their validity through automated scripts posting to guest checkouts. To counteract this wave of attacks originating from diverse IP addresses and seemingly legitimate user agents, I developed an Autobanning tool in python which effectively identified and automatically blocked this malicious traffic, significantly hampering the attackers' efforts. 
+            The countermeasure proved highly effective until the developer team could address the underlying issue in their Ecommerce store, rectifying the checkout vulnerability that had been exploited to misuse the payment API. This effectively saved some of our largest accounts (Itsugar, Oreo, Sourpatch) and the concept was eventually built in to the Webscale SaaS Cloud Security. You can read more about it here: https://www.webscale.com/blog/itsugar-is-sweet-on-webscales-expertise/
+            </li>
+          </ul>
+        </div>
+
+        <div className="w-full p-4 text-center bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+        When would you choose to use Edge Functions, Serverless Functions, or Edge Middleware with Vercel?
+        </h5>
+          <ul>
+            <li>
+            Edge Functions - lightweight JavaScript functions that execute close to the user geographically. Use case would be retreiving data from an external API using fetch.
+            Serverless - Node.js APIs, use-case could be the need to to write to a file
+            Edge Middleware - executes before a request is processed. Bot protection would be a good case for this. 
+            </li>
+          </ul>
+        </div>
+
+        <div className="w-full p-4 text-center bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+        Imagine a customer writes in requesting help with a build issue on a framework or technology that you've not seen before. How would you begin troubleshooting this and what questions would you ask the customer to understand the situation better?
+        </h5>
+          <ul>
+            <li>
+            Hello, [customer's name here]. I see you are working with the [ABC] framework. I located the offical [ABC] troubleshooting guide here https://fakeurltofakeframework. 
+
+            If I can't determine which part exactly they are stuck on by looking at their account. I would add "Please let us know which portion you are working on and any error messages you are receiving" and perhaps we can iron out the issue together". 
+
+            If I CAN see which part they are stuck in by looking at their account. I would pinpoint it like: 
+            The error message you are receving, "Can not use fetch on null constant ABC_KEY" means your framework is missing the needed ABC_KEY environment 
+            variable in order to authorize. You should be able to find this variable in your .env file according to their documentation here: https://fakeurltofakeframework. 
+            Information on how to add these variables is located here: https://vercel.com/docs/projects/environment-variables
+            </li>
+          </ul>
+        </div>
+
+        <div className="w-full p-4 text-center bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+        The customer from question 5 replies to your response with: “I’m so frustrated. I’ve been trying to make this work for hours and I just can’t figure it out.
+        It must be a platform issue so just fix it for me instead of asking me questions.”
+        Please write a follow-up reply to the customer.
+        </h5>
+          <ul>
+            <li>
+              Hello, [customer's name here]. 
+              Are there any specific pieces of the documentation that I may assist you with? I would be happy to assist you through them. While I cannot directly
+              edit your environemnt, I would be happy to guide you step by step through the process.
+
+              This is the link to the settings page of your app: https://vercel.com/jackies-projects-c62beaed/nextjs-happiness/settings/environment-variables
+              Look for the area where you can add a key and value provided to you by ABCKEY, then click SAVE.
+              Let me know if this solves the issue for you! I am standing by. 
+
             </li>
           </ul>
         </div>
