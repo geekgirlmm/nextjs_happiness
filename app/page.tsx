@@ -11,7 +11,7 @@ export default function Home() {
           <code className="font-mono font-bold">
           Manage a support team
           Run ticket review sessions to make sure tone is consistent
-          Dig through logs to troubleshoot a customer\'s broken project
+          Dig through logs to troubleshoot a customer&apos;'s broken project
           Work with the product team to develop a new feature based on feedback from customers
           Write and maintain support articles and docs pages
           </code>
